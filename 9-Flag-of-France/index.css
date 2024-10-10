@@ -1,0 +1,35 @@
+:root {
+    --red: #ED2938;
+    --white: #FFF;
+    --blue: #002495;
+    --flag-height: 150px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.Flag-of-france {
+    height: 150px;
+    width: 250px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-stripe {
+    background: var(--blue);
+    flex: 1;
+
+}
+
+.second-stripe {
+    background: white;
+    flex: 1;
+}
+
+.third-stripe {
+    background: var(--red);
+    flex: 1;
+}
