@@ -31,13 +31,15 @@ h1:after {
     0% {
         content: "Fishing";
     }
-    25%
-    {
+
+    25% {
         content: "Camping";
     }
+
     50% {
         content: "Swimming";
     }
+
     75% {
         content: "Cooking";
     }
