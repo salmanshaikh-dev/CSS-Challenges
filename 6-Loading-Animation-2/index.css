@@ -18,7 +18,7 @@ html, body {
     margin: 1em;
     height: 2.5em;
 
-    animation: rotate 1.5s infinite;
+    animation: rotate infinite 1.5s;
     transform: rotate(45deg);
 }
 
