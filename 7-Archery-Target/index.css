@@ -1,0 +1,46 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container,
+.ring {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ring {
+    border-radius: 50%;
+}
+
+.ring1 {
+    width: 20em;
+    background: black;
+    height: 20em;
+
+}
+
+.ring2 {
+    width: 15em;
+    background: rgb(68, 122, 240);
+    height: 15em;
+
+}
+
+.ring3 {
+    width: 10em;
+    background: rgb(238, 46, 13);
+    height: 10em;
+
+}
+
+.ring4 {
+    width: 5em;
+    background: yellow;
+    height: 5em;
+
+}
