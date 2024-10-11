@@ -1,0 +1,31 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Flag {
+    display: flex;
+    width: 300px;
+    height: 180px;
+    flex-direction: column;
+}
+
+.stripe-1 {
+    background: #000000;
+    flex: 1;
+}
+
+.stripe-2 {
+    background: #DD0000;
+    flex: 1;
+}
+
+.stripe-3 {
+    background: #FFCE00;
+    flex: 1;
+}
