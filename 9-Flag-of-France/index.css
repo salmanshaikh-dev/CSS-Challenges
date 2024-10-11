@@ -3,33 +3,40 @@
     --white: #FFF;
     --blue: #002495;
     --flag-height: 150px;
+    --background-color: black;
 }
-html, body {
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Flag-of-france {
+    display: flex;
+    height: 200px;
+    width: 300px;
+
+}
+
+.first-stripe {
+    background: #002495;
+    flex: 1;
     margin: 0;
     padding: 0;
 }
 
-.Flag-of-france {
-    height: 150px;
-    width: 250px;
-    background: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.first-stripe {
-    background: var(--blue);
-    flex: 1;
-
-}
-
 .second-stripe {
-    background: white;
+    background: #ED2938;
     flex: 1;
 }
 
 .third-stripe {
-    background: var(--red);
+    background: #FFF;
     flex: 1;
 }
