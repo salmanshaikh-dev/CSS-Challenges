@@ -1,0 +1,86 @@
+:root {
+    --font-main: 'Noto Sans', sans-serif;
+    --main-bg: #000;
+    --profile-bg: #0d1117;
+    --profile-color: #c9d1d9;
+    --profile-img-border: #2e343b;
+    --username-font-color: #8b949e;
+    --username-font-weight: 400;
+    --btn-bg: #21262d;
+    --btn-color: #c9d1d9;
+    --btn-bg-hover: #30363d;
+    --btn-border: #373b43;
+    --btn-border-hover: #8c949e;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #c9d1d9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--font-main);
+}
+
+.container {
+    max-width: 200px;
+    max-height: 400px;
+    background: var(--profile-bg);
+    padding: 1.5em;
+    border-radius: 2px;
+
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: solid var(--profile-img-border) 1px;
+}
+
+h3,
+p,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin-top: .5em;
+    color: white;
+}
+
+h4 {
+    font-weight: 100;
+    font-size: .8em;
+    color: var(--username-font-color);
+    margin-bottom: 1em;
+}
+
+p {
+    font-size: .8em;
+    margin-bottom: .9em;
+}
+
+.btn-edit-profile {
+    width: 100%;
+    background: var(--btn-bg);
+    border: solid var(--btn-border) 1px;
+    color: var(--btn-color);
+    font-family: var(--font-main);
+    padding: .2em;
+    border-radius: 4px;
+    font-size: .9em;
+}
+
+.btn-edit-profile:hover {
+    border: solid var(--btn-border-hover) 1px;
+
+    background: var(--btn-bg-hover);
+    cursor: pointer;
+}
