@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiss-flag {
+    display: flex;
+    background: #D52B1E;
+    aspect-ratio: 1/1;
+    width: 32em;
+}
+
+.plus-one {
+    height: 20em;
+    width: 6em;
+    background: #FFFFFF;
+    margin-left: 13em;
+    margin-top: 6em;
+}
+
+.plus-two {
+    height: 6em;
+    width: 20em;
+    background: #ffffff;
+    margin-top: 13em;
+    margin-right: 6em;
+    position: absolute;
+    right: 8em;
+}
+
