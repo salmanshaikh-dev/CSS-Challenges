@@ -1,7 +1,7 @@
 :root {
     --blue: #006ab6;
     --yellow: #fecc00;
-    --flag-height: 300px;
+    --flag-height: 400px;
 }
 
 html,
@@ -21,6 +21,7 @@ body {
     position: relative;
 }
 
+/*
 .vertical-rec {
     background: var(--yellow);
     width: calc(var(--flag-height) / 5);
@@ -35,4 +36,26 @@ body {
     width: 100%;
     position: absolute;
     top: calc(var(--flag-height) * 1 / 2 - var(--flag-height) / 10);
+}
+
+
+*/
+
+.vertical-rec,
+.horizontal-rec {
+    background-color: var(--yellow);
+
+}
+
+.horizontal-rec {
+    height: calc(var(--flag-height) * 1/5);
+    margin-top: calc(var(--flag-height) * 1/2.5);
+
+}
+
+.vertical-rec {
+    width: calc(var(--flag-height) * 1 / 5);
+    height: var(--flag-height);
+    position: absolute;
+    left: calc(var(--flag-height) * 1/2);
 }
