@@ -1,7 +1,7 @@
 :root {
     --blue: #006ab6;
     --yellow: #fecc00;
-    --flag-height: 400px;
+    --flag-height: 300px;
 }
 
 html,
@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: lightgray;
 }
 
 .flag-sweden {
