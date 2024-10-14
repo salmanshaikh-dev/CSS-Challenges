@@ -49,6 +49,13 @@ body {
     align-items: flex-start;
     flex-direction: column;
     rotate: 180deg;
-    padding: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
     scale: 1.1;
+}
+
+.top>div:last-child,
+.bottom>div:last-child {
+    margin-left: 2px;
+    font-size: 1.2em;
 }
