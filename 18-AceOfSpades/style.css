@@ -13,9 +13,6 @@ body {
     --card-height: 200px;
 }
 
-.container {}
-
-
 .card {
     width: calc(var(--card-height) * 2/3);
     height: var(--card-height);
