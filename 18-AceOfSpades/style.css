@@ -2,9 +2,56 @@ html,
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 :root {
     --card-height: 200px;
 }
 
+.container {}
+
+
+.card {
+    width: calc(var(--card-height) * 2/3);
+    height: var(--card-height);
+    border: solid black 2px;
+    border-radius: 6px;
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top {
+    flex: 1;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    padding: 15px;
+    scale: 1.1;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    scale: 4;
+}
+
+.bottom {
+    flex: 1;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    rotate: 180deg;
+    padding: 15px;
+    scale: 1.1;
+}
