@@ -1,0 +1,26 @@
+html,
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    border: solid 20px lightgray;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+    border-top: purple solid 20px;
+    animation: spin 1.5s infinite linear;
+
+
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
