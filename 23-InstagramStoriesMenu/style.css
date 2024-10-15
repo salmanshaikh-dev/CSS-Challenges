@@ -1,6 +1,13 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
+    background: var(--bg-main);
+    font-family: var(--font);
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
 }
 
 :root {
@@ -14,4 +21,24 @@ html, body {
     --viewed: gray;
     --bg-main: #000;
     --bg-live: red;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+
+    border: solid gray 3px;
+}
+
+.stories-menu {
+    display: flex;
+    gap: 50px;
+}
+
+
+ul {
+    list-style: none;
+    text-align: center;
 }
