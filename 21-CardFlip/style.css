@@ -1,0 +1,35 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, sans-serif;
+    align-items: center;
+    height: 100vh;
+}
+
+:root {
+    --jeopardy-blue: #060CE9;
+    --font-color-main: #fff;
+}
+
+.card {
+    background: var(--jeopardy-blue);
+    color: var(--font-color-main);
+    border-radius: .5em;
+    width: 400px;
+    text-align: center;
+    padding: 20px 25px 20px 25px;
+
+
+}
+
+.card-back {
+    display: none;
+}
+
+.card:hover {
+    transform: rotate3d(1, 0, 1, 180deg);
+}
+
