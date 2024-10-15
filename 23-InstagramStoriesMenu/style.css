@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font: 'Karla', sans-serif;
+    --font-color: #fff;
+    --grad1: #feda75;
+    --grad2: #fa7e1e;
+    --grad3: #d62976;
+    --grad4: #962fbf;
+    --grad5: #4f5bd5;
+    --viewed: gray;
+    --bg-main: #000;
+    --bg-live: red;
+}
