@@ -17,12 +17,19 @@ html {
 .card {
     background: var(--jeopardy-blue);
     color: var(--font-color-main);
-    border-radius: .5em;
-    width: 400px;
+    border-radius: .9em;
     text-align: center;
-    padding: 20px 25px 20px 25px;
+    padding: 2em;
+    height: 200px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: transform .6s;
+    cursor: pointer;
 
-
+    transform-style: preserve-3d;
 }
 
 .card-back {
@@ -30,6 +37,19 @@ html {
 }
 
 .card:hover {
-    transform: rotate3d(1, 0, 1, 180deg);
+    transform: rotateY(180deg)
 }
 
+.card:hover>div:first-child {
+    display: none;
+}
+
+.card:hover>div:last-child {
+    display: block;
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    backface-visibility: hidden;
+}
