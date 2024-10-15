@@ -47,6 +47,7 @@ html, body {
 }
 
 .stage-4 {
-   width: 100%;
-   background: var(--stage-4-bg);
+    width: 100%;
+    background: var(--stage-4-bg);
 }
+
