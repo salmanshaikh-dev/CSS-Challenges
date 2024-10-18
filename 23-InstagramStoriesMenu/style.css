@@ -24,34 +24,67 @@ body {
 }
 
 .stories-menu {
-    list-style: none;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 3em;
-    text-align: center;
-
-    position: relative;
+    justify-content: space-around;
+    padding-left: 0;
+    list-style-type: none;
+    max-width: 320px;
+    margin: 2em auto;
+    gap: 2em;
 }
+
+.story {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+
+}
+
 
 .img-wrapper {
     border-radius: 50%;
-    padding: .25em;
-    width: 80px;
-    height: 80px;
+    padding: 4px;
+    width: 60px;
+    height: 60px;
+    background: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to right, var(--grad1), var(--grad2), var(--grad3), var(--grad4), var(--grad5));
 
+    border-radius: 50%;
+    align-self: center;
 }
 
 img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
+    height: 60px;
     border-radius: 50%;
     border: solid black 2px;
-
 }
 
+
+.new>.img-wrapper {
+    background: linear-gradient(45deg, var(--grad1), var(--grad2), var(--grad3), var(--grad4), var(--grad5));
+}
+
+.viewed>.img-wrapper {
+    background: var(--viewed);
+}
+
+.live:after {
+    content: 'LIVE';
+    font-size: .5em;
+    font-weight: bold;
+    background: var(--bg-live);
+    border: solid black 2px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 2px 4px;
+    width: 20px;
+    border-radius: 2px;
+}
