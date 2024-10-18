@@ -23,3 +23,45 @@ body {
     --bg-live: red;
 }
 
+.stories-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    text-align: center;
+
+    position: relative;
+}
+
+.img-wrapper {
+    border-radius: 50%;
+    padding: .25em;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, var(--grad1), var(--grad2), var(--grad3), var(--grad4), var(--grad5));
+
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid black 2px;
+
+}
+
+.live {
+    background: var(--bg-live);
+    border: solid black 2px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    top: 0;
+    width: auto;
+}
