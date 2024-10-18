@@ -55,13 +55,3 @@ img {
 
 }
 
-.live {
-    background: var(--bg-live);
-    border: solid black 2px;
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    right: 0;
-    top: 0;
-    width: auto;
-}
