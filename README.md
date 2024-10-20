@@ -5,7 +5,7 @@
 
 - [Overview](#overview)
  
-  - [Screenshot](#screenshot)
+  - [Certificate](#Certificate)
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
