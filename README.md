@@ -1,4 +1,4 @@
-#  CSS-Challenge by Scrimba
+#  CSS-Challenge by Scrimba.com
 
 
 ## Table of contents
@@ -18,7 +18,7 @@
 
 
 
-### Screenshot
+### Certificate
 
 ![](CSS-Challenge-Certificate.png)
 
