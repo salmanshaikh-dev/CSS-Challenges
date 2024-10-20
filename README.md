@@ -26,7 +26,7 @@
 ### Links
 
 
-- Live Site URL: [Add live site URL here](https://salmanshaikh-dev.github.io/Pulse-CashFlow/)
+- Live Site URL: [Add live site URL here](https://v2.scrimba.com/css-challenges-c02p)
 
 
 ### Built with
