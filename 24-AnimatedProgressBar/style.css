@@ -7,9 +7,44 @@ body {
     height: 100vh;
 }
 
+:root {
+    --start: red;
+    --middle: blue;
+    --end: green;
+    --progressbar-bg: gray;
+}
+
+.container {
+    width: 80%;
+    margin: 3em auto;
+}
+
 .progress-bar {
-    height: 2.5em;
-    width: 30em;
-    background: gray;
+    height: 1.7em;
+    background: var(--progressbar-bg);
     border-radius: 3em;
+}
+
+.progress-status {
+    background: var(--start);
+    width: 10%;
+    animation: 6s linear showprogress infinite;
+
+}
+
+@keyframes showprogress {
+    50% {
+        width: 50%;
+        background: var(--middle);
+    }
+
+    75% {
+        width: 100%;
+        background: var(--end);
+    }
+
+    100% {
+        width: 100%;
+        background: var(--end);
+    }
 }
