@@ -20,7 +20,7 @@
 
 ### Screenshot
 
-![](/Images/Pulse-cashFlow-Preview.png)
+![](CSS-Challenge-Certificate.png)
 
 
 ### Links
@@ -35,12 +35,9 @@
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-
 
 ### What I learned
-
- i learned - how to implement your knowledge about all the HTML and CSS together. by creating this project i learned how the real-wordl website is build and how to approach to succesfully create as well as deploy it on the web.
+ - In this Repository - I learned how to create components and layouts from popular applications like GitHub, CodePen, and Instagram. I'm also building loading animations, progress bars, flashcards, and more using pure CSS!
 
 
 ## Author
